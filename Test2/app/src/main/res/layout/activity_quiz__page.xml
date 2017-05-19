@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fbutton_color_belize_hole">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top|center_horizontal"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="30dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="30dp">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn3"
+            android:textColor="@color/fbutton_color_clouds"
+            fbutton:buttonColor="@color/fbutton_color_carrot"
+            fbutton:shadowColor="@color/fbutton_color_pomegranate"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Change Image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btn4"
+                android:textColor="@color/fbutton_color_clouds"
+                fbutton:buttonColor="@color/fbutton_color_carrot"
+                fbutton:shadowColor="@color/fbutton_color_pomegranate"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:text="Change Image" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn1"
+            android:textColor="@color/fbutton_color_clouds"
+            fbutton:buttonColor="@color/fbutton_color_carrot"
+            fbutton:shadowColor="@color/fbutton_color_pomegranate"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Change Image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btn2"
+                android:textColor="@color/fbutton_color_clouds"
+                fbutton:buttonColor="@color/fbutton_color_carrot"
+                fbutton:shadowColor="@color/fbutton_color_pomegranate"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:text="Change Image" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
